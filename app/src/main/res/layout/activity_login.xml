@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tury.socialloc.MainActivity"
+    android:background="@color/colorAccent">
+
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="cursive"
+        android:text="@string/formair"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+
+    <Button
+        android:text="@string/btn_Entrar"
+        android:id="@+id/btnEntrar"
+        style="@style/myButton"
+        android:elevation="10dp"
+        android:onClick="entrar"
+        android:layout_alignLeft="@+id/linear"
+        android:layout_alignStart="@+id/linear"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/green_button" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_below="@+id/subtitulo"
+        android:layout_marginTop="58dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/etRegEmail"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:padding="20dp"
+            android:hint="@string/usuario"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etContraseña"
+        android:hint="@string/contraseña"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/etRegEmail"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:padding="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnEntrar"
+        android:layout_marginTop="33dp"
+        android:onClick="registrar"
+        android:text="@string/nocuenta"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/socialloc"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

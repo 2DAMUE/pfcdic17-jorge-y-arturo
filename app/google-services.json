@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "427919426302",
+    "firebase_url": "https://socialloc-27e48.firebaseio.com",
+    "project_id": "socialloc-27e48",
+    "storage_bucket": "socialloc-27e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427919426302:android:1eac44bcb1b5919f",
+        "android_client_info": {
+          "package_name": "com.example.tury.socialloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427919426302-utauq7odj9cbgjtf5ku7g4nib3tn98hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tury.socialloc",
+            "certificate_hash": "1715dd7eb79a6be30d1171b8667efb721010b83b"
+          }
+        },
+        {
+          "client_id": "427919426302-b20tp599oe69r0t90r24ipdfmfq4al08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm7vnCeFNYbBl1goUz0jNYLdltlRCFf_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427919426302-b20tp599oe69r0t90r24ipdfmfq4al08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

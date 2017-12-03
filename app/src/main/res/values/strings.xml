@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SocialLoc</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="contraseña2">Repita su contraseña</string>
+    <string name="btn_Entrar">¡ENTRAR!</string>
+    <string name="nocuenta">¿Aún no tienes cuenta? Regístrate</string>
+    <string name="formair">SocialLoc</string>
+    <string name="registrar">¡REGÍSTRATE!</string>
+    <string name="rellenocampos">Rellene todos los campos</string>
+    <string name="registrok">Registro realizado</string>
+    <string name="borradook">Registro borrado</string>
+    <string name="registro_ko">Fallo al registrar, intentelo de nuevo</string>
+    <string name="sesionFireOk">Sesion iniciada</string>
+    <string name="sesionFireKO">Usuario y/o contraseña incorrecta</string>
+    <string name="sesioninic">Sesión Iniciada</string>
+    <string name="eslogan">Comienza tu aventura!</string>
+    <string name="caracterescontra">La contraseña debe contener mínimo 8 caracteres</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_direccion">Direccion</string>
+
+    <string-array name="tipos">
+        <item>Hotel</item>
+        <item>Restaurante</item>
+        <item>Otros</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_custom">Map</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
